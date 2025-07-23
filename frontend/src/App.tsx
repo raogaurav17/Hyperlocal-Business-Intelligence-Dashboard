@@ -31,7 +31,7 @@ export default function App() {
       case "Settings":
         return <Settings />;
       default:
-        return <Dashboard />;
+        return <QueryUser />;
     }
   }
 
