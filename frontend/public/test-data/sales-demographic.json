@@ -1,0 +1,63 @@
+[
+  {
+    "city": "New York",
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "sales": 120000
+  },
+  {
+    "city": "Tokyo",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "sales": 90000
+  },
+  {
+    "city": "Delhi",
+    "lat": 28.6139,
+    "lng": 77.2090,
+    "sales": 105000
+  },
+  {
+    "city": "London",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "sales": 85000
+  },
+  {
+    "city": "Sydney",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "sales": 67000
+  },
+  {
+    "city": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "sales": 78000
+  },
+  {
+    "city": "Berlin",
+    "lat": 52.52,
+    "lng": 13.4050,
+    "sales": 62000
+  },
+  {
+    "city": "San Francisco",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "sales": 95000
+  },
+  {
+    "city": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "sales": 73000
+  },
+  {
+    "city": "Dubai",
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "sales": 69000
+  }
+]
+
