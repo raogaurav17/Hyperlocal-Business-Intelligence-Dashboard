@@ -1,8 +1,11 @@
 import { Router } from "express";
-import { getCompietitorIntel } from './analysis.controller';
+import { getCompetitorIntel } from './analysis.controller';
 
 const router = Router();
 
-router.post("/competitor-intel", getCompietitorIntel);
+router.post("/competitor-intel", getCompetitorIntel);
+
+// General analysis endpoint
+router.post("/", getCompetitorIntel); // This will handle POST /api/analysis
 
 export default router;
