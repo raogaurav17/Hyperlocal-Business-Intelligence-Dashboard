@@ -1,19 +1,19 @@
-
-
 import "./App.css";
-import Sidebar from "@/components/layout/Sidebar";
 import Navbar from "@/components/layout/Navbar";
-import Dashboard from "@/pages/Dashboard";
+import Dashboard from "./pages/Dashboard";
+import Menu from "./components/layout/Menu";
 
 export default function App() {
-  const NAVBAR_HEIGHT = "4.5rem";
+  // Render the correct page based on sidebar selection
+  document.documentElement.classList.add("dark");
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col">
+    <div className="dark min-h-screen bg-gray-950 text-white flex flex-col">
       <Navbar />
-       <div className="flex flex-1 min-h-0" style={{ paddingTop: NAVBAR_HEIGHT }}>
-        <Sidebar className="h-full" />
-        
-        <main className="flex-1 p-4 md:p-8 overflow-y-auto md:ml-64">
+      <div className="flex flex-1 pt-16">
+        <main className="flex-1 p-4 md:p-8">
+          <h1 className="text-4xl font-extrabold mb-2">Dashboard Overview</h1>
+          <p className="text-lg text-gray-400 mb-6">Comprehensive business intelligence at your fingertips</p>
+          <Menu />
           <Dashboard />
         </main>
       </div>

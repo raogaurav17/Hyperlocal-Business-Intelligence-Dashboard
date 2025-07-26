@@ -1,35 +1,13 @@
-import { Avatar, AvatarFallback } from "@radix-ui/react-avatar";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import ToggleTheme from "./ToggleTheme";
+
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-sm">
-      <div className="text-xl font-semibold tracking-tight">Hyperlocal Admin</div>
-      <div className="flex-1 flex justify-center px-4">
-        <Input
-          className="w-full max-w-md rounded-lg border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
-          placeholder="Search..."
-        />
+    <nav className="fixed top-0 left-0 w-full h-16 flex items-center px-6 z-50 shadow" style={{background: "var(--color-background)", color: "var(--color-foreground)"}}>
+      <div className="flex items-center gap-2">
+        <span className="font-bold text-lg" style={{color: "var(--color-primary)"}}>Hyperlocal BI</span>
       </div>
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button variant="ghost" className="rounded-full p-0 w-10 h-10">
-            <Avatar>
-              <AvatarFallback>JD</AvatarFallback>
-            </Avatar>
-          </Button>
-        </DropdownMenuTrigger>
-
-        <DropdownMenuContent align="end" className="mt-2">
-          <DropdownMenuItem>Profile</DropdownMenuItem>
-          <DropdownMenuItem>Settings</DropdownMenuItem>
-          <DropdownMenuItem>Logout</DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
-      <ToggleTheme />
-    </header>
+      <div className="ml-auto flex items-center gap-4">
+      </div>
+    </nav>
   );
 }

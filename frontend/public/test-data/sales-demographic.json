@@ -1,0 +1,182 @@
+[
+  {
+    "city": "New York",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "time_period": "2025-Q1",
+    "age_group": "26-35",
+    "demand_intensity": "High",
+    "sales": 45000
+  },
+  {
+    "city": "New York",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "time_period": "2025-Q2",
+    "age_group": "36-50",
+    "demand_intensity": "Medium",
+    "sales": 42000
+  },
+  {
+    "city": "Tokyo",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "time_period": "2025-Q1",
+    "age_group": "18-25",
+    "demand_intensity": "High",
+    "sales": 38000
+  },
+  {
+    "city": "Tokyo",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "time_period": "2025-Q2",
+    "age_group": "26-35",
+    "demand_intensity": "Medium",
+    "sales": 32000
+  },
+  {
+    "city": "Delhi",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "time_period": "2025-Q1",
+    "age_group": "18-25",
+    "demand_intensity": "High",
+    "sales": 50000
+  },
+  {
+    "city": "Delhi",
+    "lat": 28.6139,
+    "lng": 77.209,
+    "time_period": "2025-Q2",
+    "age_group": "26-35",
+    "demand_intensity": "High",
+    "sales": 55000
+  },
+  {
+    "city": "London",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "time_period": "2025-Q1",
+    "age_group": "36-50",
+    "demand_intensity": "Medium",
+    "sales": 43000
+  },
+  {
+    "city": "London",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "time_period": "2025-Q2",
+    "age_group": "50+",
+    "demand_intensity": "Low",
+    "sales": 42000
+  },
+  {
+    "city": "Sydney",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "time_period": "2025-Q1",
+    "age_group": "26-35",
+    "demand_intensity": "Low",
+    "sales": 33000
+  },
+  {
+    "city": "Sydney",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "time_period": "2025-Q2",
+    "age_group": "36-50",
+    "demand_intensity": "Medium",
+    "sales": 34000
+  },
+  {
+    "city": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "time_period": "2025-Q1",
+    "age_group": "18-25",
+    "demand_intensity": "Medium",
+    "sales": 39000
+  },
+  {
+    "city": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "time_period": "2025-Q2",
+    "age_group": "26-35",
+    "demand_intensity": "High",
+    "sales": 40000
+  },
+  {
+    "city": "Berlin",
+    "lat": 52.52,
+    "lng": 13.405,
+    "time_period": "2025-Q1",
+    "age_group": "50+",
+    "demand_intensity": "Low",
+    "sales": 30000
+  },
+  {
+    "city": "Berlin",
+    "lat": 52.52,
+    "lng": 13.405,
+    "time_period": "2025-Q2",
+    "age_group": "36-50",
+    "demand_intensity": "Medium",
+    "sales": 32000
+  },
+  {
+    "city": "San Francisco",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "time_period": "2025-Q1",
+    "age_group": "26-35",
+    "demand_intensity": "High",
+    "sales": 47000
+  },
+  {
+    "city": "San Francisco",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "time_period": "2025-Q2",
+    "age_group": "18-25",
+    "demand_intensity": "High",
+    "sales": 48000
+  },
+  {
+    "city": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "time_period": "2025-Q1",
+    "age_group": "26-35",
+    "demand_intensity": "Medium",
+    "sales": 36000
+  },
+  {
+    "city": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "time_period": "2025-Q2",
+    "age_group": "36-50",
+    "demand_intensity": "Medium",
+    "sales": 37000
+  },
+  {
+    "city": "Dubai",
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "time_period": "2025-Q1",
+    "age_group": "26-35",
+    "demand_intensity": "Medium",
+    "sales": 33000
+  },
+  {
+    "city": "Dubai",
+    "lat": 25.2048,
+    "lng": 55.2708,
+    "time_period": "2025-Q2",
+    "age_group": "18-25",
+    "demand_intensity": "High",
+    "sales": 36000
+  }
+]
