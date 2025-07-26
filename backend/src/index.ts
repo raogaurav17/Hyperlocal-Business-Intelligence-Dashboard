@@ -12,7 +12,6 @@ app.use(express.json()); // Middleware to parse JSON request bodies
 app.use("/api/analysis", analysisRoutes);
 
 app.post("/api/analyze", (req, res) => {
-    // Forward to the competitor intelligence analysis
     const { getCompetitorIntel } = require('./api/analysis/analysis.controller');
     getCompetitorIntel(req, res);
 });
