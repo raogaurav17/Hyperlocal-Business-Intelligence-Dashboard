@@ -88,7 +88,7 @@ export async function analyzeCompetitorWithLLM(competitorData: CompetitorData) {
   `;
 
   try {
-    // Mock implementation - replace with actual API call when available
+   
     const mockResponse = {
       analysis: `Based on the competitor data for ${competitorData.location}, the market shows ${competitorData.marketTrends.competitionLevel.toLowerCase()} competition with an average rating of ${competitorData.marketTrends.averageRating}. The presence of ${competitorData.competitors.length} nearby competitors indicates an active market with established demand.`,
       opportunities: [
